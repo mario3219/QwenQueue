@@ -50,11 +50,20 @@ python main.py --submit \
   --width 1024 --height 1024 --steps 40
 ```
 
-For the intended image-editing workflow, place an image in `input/` and supply
-its filename:
+For the intended image-editing workflow, place an image in `input/` and supply its filename:
 
 ```bash
 python main.py --submit \
   --img_input table.png \
   --prompt "Add an orange on the table"
+```
+
+The `script/` directory can be used to store bash scripts.
+
+```bash
+#!/bin/bash
+
+cd ../
+python main.py --submit \
+        --prompt "Create a bowl of sallad"
 ```

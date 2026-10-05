@@ -1,7 +1,12 @@
 input/*
 !input/.gitkeep
+
 output/*
 !output/.gitkeep
+
+scripts/*
+!scripts/.gitkeep
+
 scripts/*
 __pycache__/
 *.py[cod]
