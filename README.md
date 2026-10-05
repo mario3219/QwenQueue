@@ -8,7 +8,7 @@ once and processes queued jobs in submission order.
 
 - Internet access is needed to download dependencies and the model on first use.
   Allow sufficient disk space and system/GPU memory for the model; the worker
-  uses bfloat16 weights and sequential CPU offloading. Around 33GB of disk space is required to download the model. The model will be downloaded to `~/.cache/huggingface`
+  uses bfloat16 weights and sequential CPU offloading. Around 33GB of disk space is required to download the model. The model will be downloaded to `~/.cache/huggingface`.
 
 Run commands from the repository root. Optionally create a Conda environment:
 
