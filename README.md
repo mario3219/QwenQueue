@@ -34,7 +34,7 @@ python main.py --worker
 ```
 
 Start the worker before submitting jobs, and wait for
-`Worker started.` to appear. Stop it with Ctrl+C.
+`Worker started.` to appear. Stop it with `Ctrl+C`.
 
 Submit a generation job from another terminal in the same repository directory:
 
