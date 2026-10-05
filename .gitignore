@@ -3,5 +3,6 @@ input/*
 output/*
 !output/.gitkeep
 scripts/*
-src/__pychache__
+__pycache__/
+*.py[cod]
 *.db
