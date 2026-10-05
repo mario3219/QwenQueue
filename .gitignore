@@ -3,5 +3,5 @@ input/*
 output/*
 !output/.gitkeep
 scripts/*
-*/__pychache__
+src/__pychache__
 *.db
