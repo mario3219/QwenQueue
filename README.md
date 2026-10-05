@@ -58,6 +58,8 @@ python main.py --submit \
   --prompt "Add an orange on the table"
 ```
 
+To stop a running job, use `Ctrl+C` on the worker. The worker will however initiate the next job in queue.
+
 The `script/` directory can be used to store bash scripts.
 
 ```bash
