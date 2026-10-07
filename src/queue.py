@@ -30,6 +30,13 @@ def connect():
 
 def submit_job(prompt, img_input, width=1024, height=1024, steps=30):
     """Add a new job to the queue."""
+
+    if img_input != "":
+        img_path = os.path.abspath(os.path.join(os.getcwd(),"input",img_input))
+        if not os.path.exists(img_path):
+            print(f"{img_input} doesn't exist")
+            return
+
     db = connect()
 
     cursor = db.execute(
